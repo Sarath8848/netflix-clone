@@ -9,4 +9,4 @@ main = "./build/index.js"
 bucket = "./build"
 
 # ✅ Required for Cloudflare Pages deployment
-pages_build_output_dir = "./build"
+build_output_dir = "./build"  # Changed this line
