@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./MovieList.css"; // Import CSS
 import MovieRow from "./MovieRow"; // Create a new MovieRow component
 
