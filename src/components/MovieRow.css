@@ -1,0 +1,33 @@
+.movie-row__posters {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 10px 0;
+    scrollbar-width: none;
+  }
+  
+  .movie-row__posters::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .movie-row__poster {
+    width: 150px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .movie-row__poster:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.5);
+  }
+
+  .loading {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+
+  
+  
